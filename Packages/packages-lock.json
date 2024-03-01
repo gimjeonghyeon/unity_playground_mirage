@@ -1,5 +1,22 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "2.3.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.miragenet.mirage": {
+      "version": "147.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.1",
+        "com.cysharp.unitask": "2.3.3"
+      },
+      "url": "https://package.openupm.com"
+    },
     "com.unity.2d.animation": {
       "version": "9.1.0",
       "depth": 1,
@@ -164,6 +181,13 @@
     "com.unity.mathematics": {
       "version": "1.2.6",
       "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.11.4",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
